@@ -15,3 +15,6 @@ so to make these 2 possible, i will be importing **sys** and **os**
 -> os helps in finding the path exists or not, if does not exist then creates a new directory.
 
 - third step is to loop through the source folder and convert the jpg into png formats and then save them to new folder.
+
+
+Project is successful and all the files are converted into png files
