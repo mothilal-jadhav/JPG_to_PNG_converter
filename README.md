@@ -13,3 +13,5 @@ so to make these 2 possible, i will be importing **sys** and **os**
 
 -> sys helps in taking the arguments , which are in our cases will be source and destination folders
 -> os helps in finding the path exists or not, if does not exist then creates a new directory.
+
+- third step is to loop through the source folder and convert the jpg into png formats and then save them to new folder.
