@@ -9,4 +9,11 @@ if not os.path.exists(directory):
     os.makedirs(directory)
 
 
-    
+for file in os.listdir(path):
+    clean_name = os.path.splitext(file)[0]
+
+    img = Image.open(f'{path}{file}')
+
+    img.save(f'{directory}/{clean_name}.png', 'png')
+
+    print('Done! ')
